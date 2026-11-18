@@ -73,3 +73,6 @@ class App(tk.Tk):
         from gui_main import MainFrame
         self.current_user = user
         self._switch(MainFrame(self, self))
+
+
+print("나는 재중이다")
